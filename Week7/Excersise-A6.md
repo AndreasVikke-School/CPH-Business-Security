@@ -5,23 +5,23 @@ This [link points](http://sec-dat-demo.surge.sh/) to an extremely simple Single 
 See whether you can discover the following properties of the application (not all are necessary security-problems). Use the GUI provided by the application (as a start), Postman, nmap and obviously your browser's Developer Tools, when probing the app:
 
 **Q:** OS?
-    - **A:** Linux/Ubuntu
+  - **A:** Linux/Ubuntu
 
 **Q:** Server Architecture (Come up with a “guess” and provide arguments for your suggestion)
   - **A:** nginx - tomcat
 
 **Q:** Server(s)
-    - **A:** Linux, Nginx, Tomcat
+  - **A:** Linux, Nginx, Tomcat
 
 **Q:** Programming Language
   - **A:** Frontend -> React/Javascript
   - **A:** Backend -> Java
 
 **Q:** Important packages, classes used by the Programming Language
-    - **A:** JAX-RS
+  - **A:** JAX-RS
 
 **Q:** Can you see “what kind of pages” logged-in users will see, without having a way to log in?
-  - **A:** Yes trhough looking at the JAvaScript more spcific looking in the App.js file from React
+  - **A:** Yes trhough looking at the JavaScript more spcific looking in the App.js file from React
 
 **Q:** Can you discover the client technologies used
   - **A:** React can be seen in node modules under debug
@@ -69,10 +69,8 @@ Explain the first two requests, you monitor. Is this a problem, could this have 
     noopen, instructs the browser not to try and download the file but instead show it in the browser
 
 #### X-XXS-Protection:
-    configures the cross-site scription filter, which is build into most browsers
+    configures the cross-site scripting filter, which is build into most browsers
 
 #### Content-Security-Policy:
     effective measure to protect site from XSS attacks, by whitelisting sources of approved content.
     - default-src 'self'; style-src 'self' maxcdn.bootstrapcdn.com; font-src 'self'  https: data:
-
-# A9 Components with Known Vulnerabilities
