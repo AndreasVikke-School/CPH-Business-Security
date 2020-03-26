@@ -2,7 +2,7 @@
 
 ### Explain conceptually all the following terms, and how/why they are needed for SSH and TLS/SSL.
 * Symmetric Encryption
-- En algoritme for kryptografi som bruger en kryptografiske nøgle for at enkryptere en plain tekst og dekryptering af en cipher tekst.
+- - En algoritme for kryptografi som bruger en kryptografiske nøgle for at enkryptere en plain tekst og dekryptering af en cipher tekst.
 - Use case: Ex bluetooth.
 * Asymmetric Encryption
 - En algoritme for kryptografi som bruger et par af kryptografiske nøgler for at kunne enkryptere en plain tekst og dekryptere en cipher tekst. Den offentlige nøgle(public) er kendt af mange og den private nøgle(private) er kun kendt af egeren(ham der laver nøglen/kryptere teksten)
