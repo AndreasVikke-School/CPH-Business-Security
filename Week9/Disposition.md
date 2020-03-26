@@ -2,8 +2,14 @@
 
 ### Explain conceptually all the following terms, and how/why they are needed for SSH and TLS/SSL.
 * Symmetric Encryption
+- En algoritme for kryptografi som bruger en kryptografiske nøgle for at enkryptere en plain tekst og dekryptering af en cipher tekst.
+- Use case: Ex bluetooth.
 * Asymmetric Encryption
+- En algoritme for kryptografi som bruger et par af kryptografiske nøgler for at kunne enkryptere en plain tekst og dekryptere en cipher tekst. Den offentlige nøgle(public) er kendt af mange og den private nøgle(private) er kun kendt af egeren(ham der laver nøglen/kryptere teksten)
+- Use case: Ex SSH / Dankort systemer.
 * Hashing
+- En særlig funktion som bruges til at omdanne data fra en stor definitionsmængde til en mindre værdimængde. Har så få kollisioner som muligt, En kollision er når to forskellige inddata giver samme funktionsværdi. Det er kun muligt at gå den ene vej.
+- Use case: Sortering af nøgle/værdier(key/value) par i en database.
 
 ### Explain what it takes to safely log in to an SSH server, without having to provide a password.
 
