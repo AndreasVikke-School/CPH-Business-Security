@@ -5,7 +5,7 @@ Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av).
 ### Give an example of a SQL inject which will give all users in a user table
 - Input: "Hans' or 1 = 1;" --
 - SQL: "SELECT * FROM USERS WHERE name = '" + input + "'"
--> SELECT * FROM USERS WHERE name = 'Hans' or 1 = 1; --'
+- Combined: SELECT * FROM USERS WHERE name = 'Hans' or 1 = 1; --'
 
 
 ### Explain how prepared statements prevent SQL injection
