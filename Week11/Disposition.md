@@ -1,5 +1,5 @@
 # Week-11 A1 SQL injection
-Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av).
+Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av105).
 
 
 ### Give an example of a SQL inject which will give all users in a user table
@@ -17,8 +17,8 @@ Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av).
 
 ### Explain how to use placeholders in cases where prepared statements cannot do the job
 For at bruge placeholders skal du erstatte placeholderen i strengen med dit input. Dette er ikke en god metode da sql injection kan opstå. 
-1. DECLARE @query AS NVARCHAR(255) = N'SELECT * FROM dbo.Table';(Ikke beskyttet)
-2. SELECT @query AS query;(Beskyttet)
+1. DECLARE @query AS NVARCHAR(255) = N'SELECT * FROM dbo.Table';
+2. SELECT @query AS query;
 
 
 ### Explain how logging could be used to monitor injection attempts
