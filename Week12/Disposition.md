@@ -1,4 +1,4 @@
-# Week-11 A1 SQL injection
+# Week-12 OWASP A7 Cross-Site Scripting (XSS)
 Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av105).
 
 
