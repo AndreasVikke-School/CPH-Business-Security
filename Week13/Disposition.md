@@ -9,7 +9,7 @@ Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av105).
 - **Digital Signatures and Certificates** Er data der fungere som et fysisk certificat. Den indeholder en public key, information om clienten såsom navn og id, og en eller flere digitale signature. Så i bund og grund er det en "public key" forbundet med 2 former af ID og et godkendelsesstempel fra en betroet tredje part.
 - **Certificate Authorities and Certificate Trust Hierarchies:** Betroede certificat myndigheder er en tredje part som begge clinter kan betro, de certificerer integriteten af public keysne. Formatet for disse certifikater er standard X.509 or EMV.
 - **Cipher Suites:** består af (1) nøgle udveksling (2) godkendelse (3) bulk kryptering (4) MAC-algoritme, og bruges til at få de 2 sider til at blive enige om en algoritme der skal bruges.
-- **Diffie–Hellman key exchange:** etablere en delt hemmelig nøgle mellem 2 parter, som akn blive brugt til hemmelig kommunikation .
+- **Diffie–Hellman key exchange:** etablere en delt hemmelig nøgle mellem 2 parter, som kan blive brugt til hemmelig kommunikation .
 
 ### How we use them for TLS/SSL
 Kommunikationen starter med at clienten sender SSL version og Cipher Suites til serveren. Her efter sender severen Certificatet tilbage. Clientet generer en pre-master nøgle og kryptere den med public nøglen fra certificatet, dette bliver brugt til at lave MAC og secret key. Serveren motager pre-master nøglen og generere MAC og secret key. Nu kan clineten og serveren kommunikere sikkert.
