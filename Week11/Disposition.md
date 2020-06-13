@@ -1,4 +1,4 @@
-# Week-11 A1 SQL injection
+# Week 11 - A1 SQL injection
 Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av105).
 
 

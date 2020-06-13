@@ -1,4 +1,4 @@
-# Week-09 SSH + Crypto-1
+# Week 9 - SSH + Crypto-1
 
 ### Explain conceptually all the following terms, and how/why they are needed for SSH and TLS/SSL.
 * Symmetric Encryption

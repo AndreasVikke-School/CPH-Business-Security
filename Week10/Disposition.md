@@ -1,4 +1,4 @@
-# Week-10 Social Engineering, Denial-of-service attacks
+# Week 10 - Social Engineering, Denial-of-service attacks
 Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av105).
 
 ### Explain different ways to use Social Engineering (vectors)
