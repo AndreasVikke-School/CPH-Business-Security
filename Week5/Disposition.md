@@ -26,22 +26,80 @@ En af metoderne der kan bruges er Penetration Testing, hvor en attacker for et b
     - Network Protocol analyzer, bruges til at catche indgående og udgående traffik på systemet. HTTP, DNS, IP osv.
 - BurpSuite
     - Tool til at intercepte requests, og ændre på dem inden de bliver sent
+- Postman
+    - Tool til at sende custom HTTP requests med
 
 ### Explain the purpose of NMap and what can be discovered with the tool, using one or more prepared samples
 1. NMAP kan finde åbne porte på et netværk.
     - nc -lvp 2222
     - nmap 127.0.0.1
-|PORT|STATE|SERVICE|
-|---|---|---|---|
-|21/tcp|filtered|ftp|
-|53/tcp|open|domain|
-|80/tcp|filtered|http|
-|3333/tcp|open|dec-notes|
-|5555/tcp|filtered|freeciv|
+<table align="center">
+    <thead>
+        <tr>
+            <th>PORT</th>
+            <th>STATE</th>
+            <th>SERVICE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">21/tcp</td>
+            <td align="center">filtered</td>
+            <td align="center">ftp</td>
+        </tr>
+        <tr>
+            <td align="center">53/tcp</td>
+            <td align="center">open</td>
+            <td align="center">domain</td>
+        </tr>
+        <tr>
+            <td align="center">80/tcp</td>
+            <td align="center">filtered</td>
+            <td align="center">http</td>
+        </tr>
+        <tr>
+            <td align="center">3333/tcp</td>
+            <td align="center">open</td>
+            <td align="center">dec-notes</td>
+        </tr>
+        <tr>
+            <td align="center">5555/tcp</td>
+            <td align="center">filtered</td>
+            <td align="center">freeciv</td>
+        </tr>
+    </tbody>
+</table>
+
 2. NMAP kan også finde hvilket OS systemt kører
     - nmap 91.100.104.27 -O
-        - Running: Linux 2.6.X
+<table align="center">
+    <tbody>
+        <tr>
+            <th align="center">Running:</th>
+            <td align="center">Linux 2.6.X</td>
+        </tr>
+        <tr>
+            <th align="center">OS CPE:</th>
+            <td align="center">cpe:/o:linux:linux_kernel:2.6</td>
+        </tr>
+        <tr>
+            <th align="center">OS details:</th>
+            <td align="center">Linux 2.6.9 - 2.6.27</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Explain “ways” to legally practice Penetration Tester Skills
+Der er mange sider såsom TryHackMe.com som udbyder maskiner du kan lave penetration test på, udover dette findes der test enviroment som man selv kan sætte op, såsom Metasploitable 2 og Juice Shop
+
 ### Explain the concepts (where do they fit in) Kali Linux, Metasploitable 2 (and 3) OWASP Juice Shop.
+#### Kali Linux
+Er et Linux build lavet til hacking, det kommer med stort set alle programmer installeret, så man nemt bare kan komme igang.
+
+#### Metasploitable 2
+Er en server med fejl som man kan prøve at finde genne Pen-testing, f.eks. er Tomcat 5.5 installeret som har kom med et default password til admin login som var tomcat.
+
+#### Juice Shop
+Er en hjemmeside med et scoreboard, hvor det gælder om at finde flest mulige fejl som kan udnyttes.
+
 ### Explain a possible test-setup using Kali Linux and Metasploitable x (or similar) and why testing/practising in this way “makes sense”
