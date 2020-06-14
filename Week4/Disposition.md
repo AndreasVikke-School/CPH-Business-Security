@@ -1,10 +1,10 @@
 # Week 4 - A3 and GDPR
 
 ### Enumerate the major kinds of sensitive data as defined by the EU law (Danish law is the same).
-- Racial or ethnic origin; 
-- Political opinions; 
-- Religious or philosophical beliefs; 
-- Trade union membership; 
+- Racial or ethnic origin;
+- Political opinions;
+- Religious or philosophical beliefs;
+- Trade union membership;
 - Genetic data;
 - Biometric data (where processed to uniquely identify someone).
 
