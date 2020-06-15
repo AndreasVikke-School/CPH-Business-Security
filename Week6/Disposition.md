@@ -24,11 +24,17 @@ DNS bruges er en navneserver som opbevare IP addresser på servere. For at få e
 2. Then the server sends a HTTP 200 OK package back trough the TCP with the resulting data
 
 ### Explain, conceptually, about the arp-command and the ARP-protocol
+    (CMD Windows -> arp -a) (Rød er Router IP og MAC)
+![Arp Image](arp.png)
+- ARP-protocol er protocolen der fortæller routeren hvilken maskine IP addressen hører til. Det gøres ved hjælp af MAC addressen.
+- ARP-command tillader dig at se og ændre på ARP-protocolen
 
 ### Explain Conceptually strategies a hacker can use to attack:
-    - The DNS system
-    - The DHCP protocol
-    - The TCP-protocol
-    - The ARP-protocol
-
-Provide at least one “practical” example using one of the strategies explained above
+- The DNS system
+    - En hacker kan lave ARP-Spoofing til at være MITM, så når en bruger spørger DNS severen om en IP vil MITM sende en forkert IP der f.eks. peger til en af hans servere.
+- The DHCP protocol
+    - En hacker kan lave et MITM attack så han kan bestemme Default Gatewai IP'er for brugere, de kan så f.eks. pege på en af hans servere istedet.
+- The TCP-protocol
+    - En hacker sender en masse SYN requests til serveren, med en IP der er spoofed. Når serveren så venter på svar på en åben port og der ikke kommer noget bliver hackeren ved med at sende. På den måde vil der tilsidst ikke være flere porte og serveren vil ikke kunne fungere.
+- The ARP-protocol
+    - En hacker kan ved at injecte ARP protocolen få routeren til at tro at hans MAC addresse er en andens, og derved opsnappe alt traffic der skulle have været til en anden bruger.
