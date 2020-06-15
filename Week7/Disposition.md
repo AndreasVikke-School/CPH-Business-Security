@@ -10,7 +10,10 @@
 ### Demonstrate shortly how many properties of a sample (misconfigured) application a hacker can discover.
 
 ### Explain, as many as you can come up with, Security Misconfigurations, made deliberately throughout this semester, to make it possible to demonstrate “real attacks”
+- admin/test
+- JWT token
 
 ### Explain briefly about the OWASP A9 threat
 
 ### Provide and demonstrate practical examples for how to ensure that our maven dependencies do not contain Known Vulnerabilities? (Feel free to replace Java/maven above with examples from other technologies such as JavaScript, Python …)
+- https://snyk.io/vuln/?packageManager=all
