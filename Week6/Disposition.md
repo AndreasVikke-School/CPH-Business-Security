@@ -38,5 +38,3 @@ DNS bruges er en navneserver som opbevare IP addresser på servere. For at få e
     - En hacker sender en masse SYN requests til serveren, med en IP der er spoofed. Når serveren så venter på svar på en åben port og der ikke kommer noget bliver hackeren ved med at sende. På den måde vil der tilsidst ikke være flere porte og serveren vil ikke kunne fungere.
 - The ARP-protocol
     - En hacker kan ved at injecte ARP protocolen få routeren til at tro at hans MAC addresse er en andens, og derved opsnappe alt traffic der skulle have været til en anden bruger.
-
-Provide at least one “practical” example using one of the strategies explained above
