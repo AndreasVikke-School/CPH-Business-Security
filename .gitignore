@@ -222,3 +222,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/node,code,java,react,linux,macos,windows
+/Week8/Week8-Auth/target/
