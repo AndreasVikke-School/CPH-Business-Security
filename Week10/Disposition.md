@@ -29,6 +29,11 @@ Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av105).
 * Keeping connections open(Serveren skal ikke vente på svar og fylde memory 3-way).
 
 
+### Exercise
+https://nordea.dk
+https://nοrdeа.dk
+
+
 # Handling Passwords and Secrets (Optional)
 ### Explain why it’s always a problem to store user passwords in plain text in our database
 ### Explain about the different hashing algorithms available, and why slow is good
