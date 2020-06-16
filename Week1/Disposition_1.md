@@ -72,7 +72,7 @@
 * Injection - Øvelse fra Week1
 
 ### Explain how security risks are rated in OWASP.
-![alt text](owasp.jpg)
+![owasp](owasp.jpg)
 
 ### Argue whether OWASP gives the complete picture of security risks on an application.
 * Top 10

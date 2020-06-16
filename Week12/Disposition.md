@@ -1,5 +1,6 @@
 # Week 12 - OWASP A7 Cross-Site Scripting (XSS)
 Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av105).
+    (sudo nodejs index.js)
 
 
 ### Explain the “sections”, “Is the Application Vulnerable” and “How to Prevent” for the OWASP 2017 Risks: A7
