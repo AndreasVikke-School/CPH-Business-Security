@@ -9,7 +9,7 @@ def sha_encoding(password):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='A program that encrypts a password')
     parser.add_argument('password', help='password to encrypt')
-    parser.add_argument('-encryption', "-e", default='md5', help='encryption type md5 or sha256 encoding')
+    parser.add_argument('-hashing', "-e", default='md5', help='hashing type md5 or sha256')
     args = parser.parse_args()
 
     if args.encryption == 'md5':

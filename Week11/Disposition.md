@@ -1,6 +1,6 @@
 # Week 11 - A1 SQL injection
 Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av105).
-
+    (Week4 - JuiceShop) (cd /mnt/c/Users/Bacon/Documents/GitHub/CPH-Business-Security/Week4/juice-shop/)
 
 ### Give an example of a SQL inject which will give all users in a user table
 - Input: "Hans' or 1 = 1;--"

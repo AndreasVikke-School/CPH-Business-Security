@@ -1,6 +1,7 @@
 # Week 13 - Crypto - 2
 Group: Martin Frederiksen(cph-mf237), Andreas Vikke(cph-av105).
 
+    (Localhost-Wire-Dump-TLS) (Filter: tcp.stream eq 0 && tls)
 
 ### Explain conceptually all the following terms, and how/why they are all needed for TLS/SSL 
 - **Symmetric Encryption:** Er en algoritme for kryptografi der bruger den samme nøgle til at kryptering af "plaintext" og dekryptering af "ciphertext". Største ulempe ved det er at begge ender skal kende til nøglen.
