@@ -16,3 +16,5 @@ Først sættes en HTTP server op med en context path f.eks. /logger, her efter a
 
 ### Explain how to use a cloud-based logging service to enable anomaly detection.
 Fleste store cloud-based logging services såsom f.eks. Azure Stream, har veltrænede AI som kan detektere anomaly i real-time. Derfor er det en god ide at bruge disse services, da det vil tage lang tid at træne dem selv.
+
+![Setup](LoggingSetup.png)

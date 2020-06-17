@@ -22,6 +22,7 @@
 Credential Stuffing er en automatiseret injection, med kendte brugernavne og password kombinationer. Disse kombinationer bliver prøvet af på hjemmesiden indtil et match er fundet hvorefter hijakeren kan tage over.
 
 ### Demonstrate how you, in practice, have, or could, remove some of the vulnerabilities listed above
+- Se password øvelse.
 
 ## A5
 ### Explain about OWASP A5, and explain a number of the problems that would leave your application vulnerable to A5-problems
