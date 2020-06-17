@@ -1,5 +1,6 @@
 # Week 9 - SSH + Crypto-1
-    (Droplet: ssh root@161.35.197.54)
+    (SSL Show Websites. Droplet: ssh root@161.35.197.54)
+    (http://www.pythonchallenge.com/ - http://www.andreasvikke.dk/)
 
 ### Explain conceptually all the following terms, and how/why they are needed for SSH and TLS/SSL.
 - Symmetric Encryption

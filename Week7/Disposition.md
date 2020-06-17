@@ -27,3 +27,4 @@ Atacker vil prøve at explote ikke opdaterede ting, defualt accounts, unprotecte
 
 ### Provide and demonstrate practical examples for how to ensure that our maven dependencies do not contain Known Vulnerabilities? (Feel free to replace Java/maven above with examples from other technologies such as JavaScript, Python …)
 - https://snyk.io/vuln/?packageManager=all
+- (https://app.snyk.io/org/andreasvikke/projects)
